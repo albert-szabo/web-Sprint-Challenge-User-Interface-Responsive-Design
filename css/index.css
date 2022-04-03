@@ -265,16 +265,39 @@ footer {
 
 .email-container {
     width: 33.33%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.email-container h5 {
+    width: 100%;
+    align-items: center;
+    text-align: center;
 }
 
 .footer-right {
     width: 66.66%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-nav {
+.footer-links {
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .copyright {
