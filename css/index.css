@@ -259,6 +259,26 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.email-container {
+    width: 33.33%;
+}
+
+.footer-right {
+    width: 66.66%;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.copyright {
+    height: 10%;
 }
 
 /* mobile media query */
